@@ -1,4 +1,3 @@
-#ruby-bootstrap
+#ruby-dht
 
-a simple dockerized project meant to be used as a skeleton for ruby libs.
-
+distributed hash table implementation in ruby
