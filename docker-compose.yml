@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  dht:
+    build: .
+    volumes:
+      - bundle:/bundle
+      - .:/app
+    command: sleep infinity
+volumes:
+  bundle:
+    external: true
